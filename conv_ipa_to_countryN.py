@@ -13,7 +13,7 @@ data = requests.get(f'https://api.ipdata.co/{ip_address}?api-key={api_key}').jso
 print()
 data_str = json.dumps(data, indent= 2)
 
-print(data_str)
+#print(data_str)
 
 
 
